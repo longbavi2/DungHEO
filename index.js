@@ -1,5 +1,5 @@
 const contentLetterSrart_actived = "Bấm Vào Hộp Quà Đi ạ" //Lời mở đầu cho bức thư
-const mainContentLetter = "Thiên thần sinh nhật vui vẻ nhaa .Tuổi mới luôn mạnh khỏe,vui vẻ và nhiều tiền nhá :3" //Nội dung của bức thư
+const mainContentLetter = "Nếu C Có Đọc Được Những Dòng Cái Này Chắc Giờ Đã Sang Năm 2024 Rồi Nhỉ.Hôm Nay Mặt Trời Của Em Chắc Vui Vẻ Lắm .Chúc Cô Gái Mà Em Luôn Yêu Thương Tuổi Mới Vui Vẻ,Mạnh Khỏe Và Cái Quan Trọng Nhất Là Phải Thật Hạnh Phúc.Và Em Muốn Nói Là 'ANH NHỚ CHỊ'" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
@@ -12,7 +12,7 @@ imgLetter.src = "./img/b4bbdb54b7152338d7143cb444a77f09.png"; //Hình ảnh xu�
 const splitContentLetterSrart_actived = contentLetterSrart_actived.split("");
 
 document.querySelector(".sticker").addEventListener("click", function () { //Hiệu ứng gõ chữ cho phần mở đầu của bức thư
-    const note =document.querySelector(".note");
+    const note = document.querySelector(".note");
     note.classList.add("close-p");
     document.querySelector(".contentLetter").innerHTML = "";
     document.querySelector(".startLetter").classList.add("active")
@@ -22,7 +22,7 @@ document.querySelector(".sticker").addEventListener("click", function () { //Hi�
                 document.querySelector(".contentLetter").innerHTML += val;
                 if (index == contentLetterSrart_actived.length - 1) {
                     setTimeout(() => {
-                        document.querySelector(".recieve").setAttribute("style", "opacity: 1; transition: .5s") 
+                        document.querySelector(".recieve").setAttribute("style", "opacity: 1; transition: .5s")
                     }, 1000)
                 }
             }, 50 * index)
@@ -61,7 +61,7 @@ document.querySelector(".recieve").addEventListener("click", () => {
         document.querySelector(".startForm").classList.add("close");
         setTimeout(() => {
             document.querySelector(".startForm").setAttribute("style", "bottom: 100%");
-            
+
             let getTypeDevice = document.documentElement.clientWidth;
             if (getTypeDevice <= 768) {
                 createLight(20)
