@@ -1,7 +1,5 @@
 const contentLetterSrart_actived = "Bấm Vào Hộp Quà Đi ạ" //Lời mở đầu cho bức thư
-const mainContentLetter = "Nếu C Có Đọc Được Những Dòng Này Chắc Giờ Đã Sang Năm 2024 Rồi Nhỉ.Hôm Nay Mặt Trời Của Em Chắc Vui Vẻ Lắm .Chúc Cô Gái Mà Em Luôn Yêu Thương Tuổi Mới Vui Vẻ,Mạnh Khỏe Và Cái Quan Trọng Nhất Là Phải Thật Hạnh Phúc.Và Em Muốn Nói Là 'ANH NHỚ CHỊ'" //Nội dung của bức thư
-
-// Gắn 1 đường link ảnh bất kì
+const mainContentLetter = "Nếu C Có Đọc Được Những Dòng Này Chắc Giờ Đã Sang Năm 2024 Rồi Nhỉ.Hôm Nay Mặt Trời Của Em Chắc Vui Vẻ Lắm .Chúc Cô Gái Mà Em Luôn Yêu Thương Tuổi Mới Vui Vẻ,Mạnh Khỏe Và Cái Quan Trọng Nhất Là Phải Thật Hạnh Phúc Nhá 'LU'" //Nội dung của bức thư// Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
 imgStart.src = "./img/cute-young-boy-kid-wearing-vest-and-hat-free-png.png";
 
