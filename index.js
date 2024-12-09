@@ -1,5 +1,5 @@
 const contentLetterSrart_actived = "Bấm Vào Hộp Quà Đi ạ" //Lời mở đầu cho bức thư
-const mainContentLetter = "Sinh Nhật Vui Vẻ Nha Chị Gái" //Nội dung của bức thư// Gắn 1 đường link ảnh bất kì
+const mainContentLetter = "Nói sao nhỉ.Chị phải sống thật hạnh phúc,thật mạnh khỏe nhá.Bớt Ngáo cần lại dùm.Nếu đọc được mấy dòng này thì Chúng ta đã thành người lạ lâu rồi.Long : Người Từng Yêu Thương Chị " //Nội dung của bức thư// Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
 imgStart.src = "./img/cute-young-boy-kid-wearing-vest-and-hat-free-png.png";
 
